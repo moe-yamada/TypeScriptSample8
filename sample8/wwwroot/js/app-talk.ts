@@ -3,7 +3,7 @@ namespace App{
         public static GetGreeting( now : Date) : string { 
             let h = now.getHours(); 
             if( h < 5 ){ 
-                return "Welcom back!"; 
+                return "Welcom back!";  
             }else if( h < 12 ){ 
                 return "Good morning!"; 
             }else if( h < 16 ){ 
